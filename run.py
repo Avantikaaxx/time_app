@@ -4,7 +4,7 @@ from datetime import datetime
 app = Flask(_name_)
 
 @app.route('/time')
-def tapp():
+def time_app():
     dt = datetime.now()
     s = "Hello Professor Franchitti! you visited the website at: " + str(dt)
     return(s)
