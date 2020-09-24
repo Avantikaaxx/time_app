@@ -1,11 +1,13 @@
 # time_app
 
 Step 1: Create a python flask application that returns the current time when visited using the path “/time”.
+
 Step 2: Create Dockerfile in the same directory.
 
 # Deployment in Docker:
 
 Step 3: service docker start
+
 Step 4: docker login docker.io     
 Step 5: docker system prune -a          
 Step 6: docker build -t sample-time-app .                                                   #Build a docker image    
