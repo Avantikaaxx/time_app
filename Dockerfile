@@ -11,4 +11,4 @@ USER avantikaaxx
 
 COPY --chown=avantikaaxx:avantikaaxx . .
 
-CMD [ "python", "./script.py" ]
+CMD [ "python", "./run.py" ]
